@@ -1,107 +1,139 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="SarakuSetu connects retailers and wholesalers, making local trade simpler." />
-  <title>SarakuSetu — Connecting Retailers & Wholesalers</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SarakuSetu — Connecting retailers & wholesalers</title>
+  <meta name="description" content="SarakuSetu connects retailers and wholesalers, making everyday business ordering simpler.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="nav">
-    <a class="brand" href="#">
-      <span class="brand-mark">S</span>
-      <span>SarakuSetu</span>
-    </a>
-    <a class="nav-link" href="#how-it-works">How it works</a>
-  </header>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#"><span class="brand-mark">S</span><span>SarakuSetu</span></a>
+    <div class="language-toggle" role="group" aria-label="Language">
+      <button class="lang-btn active" data-lang="en">English</button>
+      <button class="lang-btn" data-lang="kn">ಕನ್ನಡ</button>
+    </div>
+  </div>
+</header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <div class="eyebrow">LOCAL TRADE, CONNECTED</div>
-        <h1>Connecting retailers<br /><span>&amp; wholesalers.</span></h1>
-        <p class="hero-text">
-          One simple bridge for discovering products, placing orders and growing
-          everyday businesses.
-        </p>
-        <div class="audience-grid">
-          <a class="audience-card retailer" href="https://retailer.vegz.online">
-            <div>
-              <span class="card-icon">🛒</span>
-              <h2>I’m a Retailer</h2>
-              <p>Discover products, compare availability and order from wholesalers.</p>
-            </div>
-            <span class="arrow">→</span>
-          </a>
-          <a class="audience-card wholesaler" href="https://wholesaler.vegz.online">
-            <div>
-              <span class="card-icon">📦</span>
-              <h2>I’m a Wholesaler</h2>
-              <p>Showcase your inventory and reach retailers looking to buy.</p>
-            </div>
-            <span class="arrow">→</span>
-          </a>
-        </div>
+<main>
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow" data-en="A simpler way to do business" data-kn="ವ್ಯಾಪಾರಕ್ಕೆ ಇನ್ನಷ್ಟು ಸರಳ ದಾರಿ"></div>
+      <h1 data-en="Connecting retailers & wholesalers." data-kn="ಚಿಲ್ಲರೆ ವ್ಯಾಪಾರಿಗಳು ಮತ್ತು ಸಗಟು ವ್ಯಾಪಾರಿಗಳನ್ನು ಒಂದೇ ಸೇತುವೆಯಲ್ಲಿ ಜೋಡಿಸುತ್ತೇವೆ."></h1>
+      <p class="hero-text" data-en="SarakuSetu makes everyday wholesale buying simpler — helping retailers discover products, place orders and stay connected with wholesalers." data-kn="ಸರಕು ಖರೀದಿಯನ್ನು ಇನ್ನಷ್ಟು ಸುಲಭವಾಗಿಸುವ ಸರಕು ಸೇತು. ಬೇಕಾದ ಸರಕುಗಳನ್ನು ಹುಡುಕಿ, ಆರ್ಡರ್ ಮಾಡಿ, ನಿಮ್ಮ ಸಗಟು ವ್ಯಾಪಾರಿಗಳೊಂದಿಗೆ ಸಂಪರ್ಕದಲ್ಲಿರಿ."></p>
+      <div class="hero-actions">
+        <a class="primary-btn" href="https://retailer.vegz.online" data-en="I'm a Retailer →" data-kn="ನಾನು ಚಿಲ್ಲರೆ ವ್ಯಾಪಾರಿ →"></a>
+        <a class="secondary-btn" href="https://wholesaler.vegz.online" data-en="I'm a Wholesaler →" data-kn="ನಾನು ಸಗಟು ವ್ಯಾಪಾರಿ →"></a>
       </div>
+    </div>
+    <div class="hero-visual">
+      <div class="floating-card retailer-card">
+        <div class="card-label" data-en="Retailer order" data-kn="ಚಿಲ್ಲರೆ ಆರ್ಡರ್"></div>
+        <strong data-en="12 items • ₹4,860" data-kn="12 ಸರಕುಗಳು • ₹4,860"></strong>
+        <span data-en="Order placed ✓" data-kn="ಆರ್ಡರ್ ಮಾಡಲಾಗಿದೆ ✓"></span>
+      </div>
+      <div class="bridge">S</div>
+      <div class="floating-card wholesaler-card">
+        <div class="card-label" data-en="Wholesaler" data-kn="ಸಗಟು ವ್ಯಾಪಾರಿ"></div>
+        <strong data-en="New order received" data-kn="ಹೊಸ ಆರ್ಡರ್ ಬಂದಿದೆ"></strong>
+        <span data-en="Ready to process" data-kn="ಪ್ರಕ್ರಿಯೆಗೆ ಸಿದ್ಧ"></span>
+      </div>
+    </div>
+  </div>
+</section>
 
-      <div class="hero-visual" aria-hidden="true">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="trade-card card-top">
-          <span>Retailer</span><strong>Order placed</strong><small>Fresh stock needed</small>
-        </div>
-        <div class="trade-card card-center">
-          <div class="setu-icon">S</div>
-          <strong>SarakuSetu</strong>
-          <span>Retail ↔ Wholesale</span>
-        </div>
-        <div class="trade-card card-bottom">
-          <span>Wholesaler</span><strong>Order received</strong><small>Ready to fulfil</small>
-        </div>
-      </div>
-    </section>
+<section class="audiences">
+  <div class="container">
+    <div class="section-heading">
+      <div class="eyebrow" data-en="Built for both sides" data-kn="ಇಬ್ಬರಿಗೂ ಉಪಯುಕ್ತ"></div>
+      <h2 data-en="Who are you?" data-kn="ನೀವು ಯಾರು?"></h2>
+    </div>
+    <div class="audience-grid">
+      <a class="audience-card retailer" href="https://retailer.vegz.online">
+        <span class="number">01</span>
+        <h3 data-en="I'm a Retailer" data-kn="ನಾನು ಚಿಲ್ಲರೆ ವ್ಯಾಪಾರಿ"></h3>
+        <p data-en="Find products, compare what you need, place wholesale orders and keep your shop stocked." data-kn="ಬೇಕಾದ ಸರಕುಗಳನ್ನು ಹುಡುಕಿ, ಆರ್ಡರ್ ಮಾಡಿ, ನಿಮ್ಮ ಅಂಗಡಿಗೆ ಬೇಕಾದ ಸ್ಟಾಕ್ ಅನ್ನು ಸಮಯಕ್ಕೆ ಸರಿಯಾಗಿ ತುಂಬಿಸಿಕೊಳ್ಳಿ."></p>
+        <span class="card-link" data-en="Enter retailer app →" data-kn="ಚಿಲ್ಲರೆ ಆಪ್‌ಗೆ ಹೋಗಿ →"></span>
+      </a>
+      <a class="audience-card wholesaler" href="https://wholesaler.vegz.online">
+        <span class="number">02</span>
+        <h3 data-en="I'm a Wholesaler" data-kn="ನಾನು ಸಗಟು ವ್ಯಾಪಾರಿ"></h3>
+        <p data-en="Show your catalogue, receive retailer orders and manage your wholesale business in one place." data-kn="ನಿಮ್ಮ ಕ್ಯಾಟಲಾಗ್ ತೋರಿಸಿ, ಚಿಲ್ಲರೆ ಆರ್ಡರ್‌ಗಳನ್ನು ಸ್ವೀಕರಿಸಿ, ನಿಮ್ಮ ಸಗಟು ವ್ಯವಹಾರವನ್ನು ಒಂದೇ ಜಾಗದಲ್ಲಿ ನಿರ್ವಹಿಸಿ."></p>
+        <span class="card-link" data-en="Enter wholesaler app →" data-kn="ಸಗಟು ಆಪ್‌ಗೆ ಹೋಗಿ →"></span>
+      </a>
+    </div>
+  </div>
+</section>
 
-    <section class="story">
-      <div>
-        <div class="eyebrow">WHY SARAKUSETU</div>
-        <h2>A simpler way to do everyday business.</h2>
-      </div>
-      <p>
-        Retailers and wholesalers depend on each other every day. SarakuSetu is
-        built to make that connection more organised, visible and convenient —
-        helping both sides spend less time coordinating and more time growing.
-      </p>
-    </section>
+<section class="story">
+  <div class="container story-grid">
+    <div>
+      <div class="eyebrow" data-en="Why SarakuSetu" data-kn="ಸರಕು ಸೇತು ಏಕೆ?"></div>
+      <h2 data-en="Less running around. More business." data-kn="ಓಡಾಟ ಕಡಿಮೆ. ವ್ಯಾಪಾರ ಹೆಚ್ಚು."></h2>
+    </div>
+    <div class="story-copy">
+      <p data-en="Retailers spend too much time calling, messaging and checking prices. Wholesalers spend time managing scattered orders." data-kn="ಬೆಲೆ ಕೇಳಲು, ಸರಕು ವಿಚಾರಿಸಲು, ಆರ್ಡರ್ ಮಾಡಲು ಚಿಲ್ಲರೆ ವ್ಯಾಪಾರಿಗಳು ಹಲವು ಕರೆಗಳು ಮತ್ತು ಮೆಸೇಜ್‌ಗಳಲ್ಲಿ ಸಮಯ ಕಳೆಯುತ್ತಾರೆ. ಸಗಟು ವ್ಯಾಪಾರಿಗಳಿಗೂ ಆರ್ಡರ್‌ಗಳನ್ನು ಬೇರೆ ಬೇರೆ ಕಡೆ ನಿರ್ವಹಿಸುವ ತೊಂದರೆ ಇರುತ್ತದೆ."></p>
+      <p data-en="SarakuSetu brings that everyday connection into one simple digital flow." data-kn="ಆ ದೈನಂದಿನ ಸಂಪರ್ಕ ಮತ್ತು ಆರ್ಡರ್ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಒಂದೇ ಸರಳ ಡಿಜಿಟಲ್ ವ್ಯವಸ್ಥೆಗೆ ತರುತ್ತದೆ."></p>
+    </div>
+  </div>
+</section>
 
-    <section class="how" id="how-it-works">
-      <div class="section-heading">
-        <div class="eyebrow">HOW IT WORKS</div>
-        <h2>From inventory to order, in one connected flow.</h2>
-      </div>
-      <div class="steps">
-        <article><span>01</span><h3>Wholesalers list</h3><p>Make products and available inventory visible to retailers.</p></article>
-        <article><span>02</span><h3>Retailers discover</h3><p>Browse products and find what the business needs.</p></article>
-        <article><span>03</span><h3>Orders connect</h3><p>Place orders and keep the buying process organised.</p></article>
-        <article><span>04</span><h3>Businesses grow</h3><p>Better connections create smoother repeat business.</p></article>
-      </div>
-    </section>
+<section class="how">
+  <div class="container">
+    <div class="section-heading">
+      <div class="eyebrow" data-en="How it works" data-kn="ಹೇಗೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ"></div>
+      <h2 data-en="From shelf to supply, simply." data-kn="ಅಂಗಡಿಯಿಂದ ಸಪ್ಲೈವರೆಗೆ, ಸರಳವಾಗಿ."></h2>
+    </div>
+    <div class="steps">
+      <div class="step"><span>01</span><h3 data-en="Discover" data-kn="ಹುಡುಕಿ"></h3><p data-en="Retailers browse products from wholesalers." data-kn="ಚಿಲ್ಲರೆ ವ್ಯಾಪಾರಿಗಳು ಸಗಟು ವ್ಯಾಪಾರಿಗಳ ಸರಕುಗಳನ್ನು ನೋಡುತ್ತಾರೆ."></p></div>
+      <div class="step"><span>02</span><h3 data-en="Order" data-kn="ಆರ್ಡರ್ ಮಾಡಿ"></h3><p data-en="Add what you need and place the order." data-kn="ಬೇಕಾದ ಸರಕುಗಳನ್ನು ಸೇರಿಸಿ ಆರ್ಡರ್ ಮಾಡಿ."></p></div>
+      <div class="step"><span>03</span><h3 data-en="Connect" data-kn="ಸಂಪರ್ಕಿಸಿ"></h3><p data-en="The wholesaler receives the order in one place." data-kn="ಸಗಟು ವ್ಯಾಪಾರಿಗೆ ಆರ್ಡರ್ ಒಂದೇ ಜಾಗದಲ್ಲಿ ಬರುತ್ತದೆ."></p></div>
+      <div class="step"><span>04</span><h3 data-en="Grow" data-kn="ಬೆಳೆಸಿ"></h3><p data-en="Less friction for everyday wholesale business." data-kn="ದೈನಂದಿನ ಸಗಟು ವ್ಯಾಪಾರ ಇನ್ನಷ್ಟು ಸುಲಭವಾಗುತ್ತದೆ."></p></div>
+    </div>
+  </div>
+</section>
 
-    <section class="final-cta">
-      <div>
-        <div class="eyebrow">READY TO CONNECT?</div>
-        <h2>Choose your side of the trade.</h2>
-      </div>
-      <div class="cta-buttons">
-        <a href="https://retailer.vegz.online">Retailer →</a>
-        <a href="https://wholesaler.vegz.online">Wholesaler →</a>
-      </div>
-    </section>
-  </main>
+<section class="final-cta">
+  <div class="container cta-box">
+    <div>
+      <div class="eyebrow" data-en="SarakuSetu" data-kn="ಸರಕು ಸೇತು"></div>
+      <h2 data-en="Your business. Your suppliers. One simple connection." data-kn="ನಿಮ್ಮ ವ್ಯಾಪಾರ. ನಿಮ್ಮ ಸಪ್ಲೈಯರ್‌ಗಳು. ಒಂದೇ ಸರಳ ಸಂಪರ್ಕ."></h2>
+    </div>
+    <div class="cta-actions">
+      <a href="https://retailer.vegz.online" class="primary-btn" data-en="Retailer →" data-kn="ಚಿಲ್ಲರೆ ವ್ಯಾಪಾರಿ →"></a>
+      <a href="https://wholesaler.vegz.online" class="secondary-btn" data-en="Wholesaler →" data-kn="ಸಗಟು ವ್ಯಾಪಾರಿ →"></a>
+    </div>
+  </div>
+</section>
+</main>
 
-  <footer>
-    <span>© 2026 SarakuSetu</span>
-    <span>Connecting local trade.</span>
-  </footer>
+<footer>
+  <div class="container footer-inner">
+    <span>© SarakuSetu</span>
+    <span data-en="Connecting business, simply." data-kn="ವ್ಯಾಪಾರವನ್ನು ಸರಳವಾಗಿ ಸಂಪರ್ಕಿಸುತ್ತೇವೆ."></span>
+  </div>
+</footer>
+
+<script>
+const buttons = document.querySelectorAll('.lang-btn');
+const translatable = document.querySelectorAll('[data-en][data-kn]');
+
+function setLanguage(lang) {
+  document.documentElement.lang = lang === 'kn' ? 'kn' : 'en';
+  translatable.forEach(el => el.textContent = el.dataset[lang]);
+  buttons.forEach(btn => btn.classList.toggle('active', btn.dataset.lang === lang));
+  localStorage.setItem('saraku-language', lang);
+}
+
+buttons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
+setLanguage(localStorage.getItem('saraku-language') || 'en');
+</script>
 </body>
 </html>
